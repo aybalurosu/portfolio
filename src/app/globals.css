@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+:root {
+    --main-background: #0C0F18;
+    --navbar: #0C0F18;
+    --text-color: #e6afc2;
+    --hover-text-color: #4B3C4F;
+}
+
+body {
+    background-color: var(--main-background);
+}
+
+.hover-menu {
+    cursor: pointer;
+}
+
+.hover-menu:hover {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
