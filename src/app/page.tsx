@@ -2,7 +2,7 @@ import {Hero, About, Skills, Projects, Contact} from "@/components/sections";
 
 export default function Home() {
   return (
-    <div className="">
+    <div>
       <Hero />
       <About />
       <Skills />
