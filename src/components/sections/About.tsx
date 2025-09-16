@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function About() {
   return (
-    <section className="flex flex-col md:flex-row lg:flex-row items-center justify-center gap-6">
+    <section className="flex flex-col md:flex-row lg:flex-row items-center justify-center gap-6 min-h-screen">
       {/* component */}
       <div className="p-4 rounded-lg w-auto lg:w-1/2 md:w-1/2
        shadow-[#4a4a4a] shadow-md backdrop-blur-2xl flex flex-col items-center justify-center gap-4">

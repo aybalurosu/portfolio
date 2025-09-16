@@ -2,7 +2,7 @@ import {Hero, About, Skills, Projects, Contact} from "@/components/sections";
 
 export default function Home() {
   return (
-    <div>
+    <div className="flex flex-col gap-20 p-2">
       <Hero />
       <About />
       <Skills />

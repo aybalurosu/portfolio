@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function Hero() {
   return (
-    <section className="p-4 flex flex-col lg:flex-row md:flex-row items-center justify-center gap-4">
+    <section className="flex flex-col lg:flex-row md:flex-row items-center justify-center gap-4 min-h-screen">
       {/* component */}
       <div className="bg-[#f8cdebc6] p-4 rounded-lg w-auto lg:w-1/2 md:w-1/2
        shadow-[#4a4a4a] shadow-md backdrop-blur-2xl flex flex-col items-center justify-center gap-4">
@@ -25,7 +25,7 @@ export function Hero() {
           </a>
         </div>
         {/* component */}
-        <button className="bg-[#4a4a4a] text-white px-4 py-2 rounded-lg hover:bg-[#333333] transition">Let's Talk</button>
+        <button className="bg-[#4a4a4a] text-white px-4 py-2 rounded-lg hover:bg-[#333333] transition">Lets Talk</button>
       </div>
     </section>
   );
