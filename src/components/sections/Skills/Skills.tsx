@@ -1,7 +1,7 @@
 
 export function Skills() {
   return (
-    <section className="flex flex-col justify-center items-start gap-4 min-h-screen">
+    <section className="flex flex-col justify-center items-start gap-4 min-h-screen w-full">
       <div>
         <h2 className="text-[32px] font-bold text-white mb-2">Skills</h2>
         <p className="text-[18px] text-white mb-6">

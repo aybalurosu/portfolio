@@ -1,39 +1,12 @@
 @import "tailwindcss";
 
 :root {
-    --main-background: #0C0F18;
+    --main-background: #0f1012;
     --navbar: #0C0F18;
     --text-color: #e6afc2;
-    --hover-text-color: #4B3C4F;
+    --hover-text-color: #e8ddec;
 }
 
 body {
     background-color: var(--main-background);
-}
-
-section {
-    padding: 2rem;
-    margin: 1rem auto;
-    max-width: 1200px;
-    color: var(--text-color);
-}
-
-.hover-menu {
-    cursor: pointer;
-}
-
-.hover-menu:hover {
-    padding: 0.5rem 1rem;
-    border-radius: 20px;
-    background-color: white;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-/* responsive */
-
-.xs {
-    @media screen and (max-width: 480px) {
-        
-    }
 }

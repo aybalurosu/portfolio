@@ -2,14 +2,14 @@ import "../../../app/globals.css";
 
 export function Navbar() {
   return (
-    <nav className="bg-[#1f2937c4] rounded-4xl border-1 border-[#1b1c24] shadow-[#8b8c908e] shadow-sm backdrop-blur-sm">
-        <ul className="flex justify-around text-white p-4">
-          <li id="hero"><a className="text-[var(--text-color)] hover-menu hover:text-[var(--hover-text-color)]">Home</a></li>
-          <li id="about"><a className="text-[var(--text-color)] hover-menu hover:text-[var(--hover-text-color)]">About</a></li>
-          <li id="skills"><a className="text-[var(--text-color)] hover-menu hover:text-[var(--hover-text-color)]">Skills</a></li>
-          <li id="projects"><a className="text-[var(--text-color)] hover-menu hover:text-[var(--hover-text-color)]">Project</a></li>
-          <li id="contact"><a className="text-[var(--text-color)] hover-menu hover:text-[var(--hover-text-color)]">Contact</a></li>
-        </ul>
+    <nav className="backdrop-blur-3xl rounded-full">
+      <ul className="inline-flex justify-between p-4">
+        <li><a href="#hero" className="text-[var(--text-color)] p-2 px-4 rounded-full border-1 border-transparent transition-all hover:text-[var(--hover-text-color)] hover:border-amber-50">Home</a></li>
+        <li><a href="#about"  className="text-[var(--text-color)] p-2 px-4 rounded-full border-1 border-transparent transition-all hover:text-[var(--hover-text-color)] hover:border-amber-50">About</a></li>
+        <li><a href="#skills"  className="text-[var(--text-color)] p-2 px-4 rounded-full border-1 border-transparent transition-all hover:text-[var(--hover-text-color)] hover:border-amber-50">Skills</a></li>
+        <li><a href="#projects"  className="text-[var(--text-color)] p-2 px-4 rounded-full border-1 border-transparent transition-all hover:text-[var(--hover-text-color)] hover:border-amber-50">Project</a></li>
+        <li><a href="#contact"  className="text-[var(--text-color)] p-2 px-4 rounded-full border-1 border-transparent transition-all hover:text-[var(--hover-text-color)] hover:border-amber-50">Contact</a></li>
+      </ul>
     </nav>
   );
 }

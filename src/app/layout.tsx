@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import "./globals.css";
 import {Header, Footer} from '../components/layout';
+import { CardInfo } from "@/components/ui";
 
 export const metadata: Metadata = {
   title: "Portfolio",
@@ -10,12 +11,17 @@ export const metadata: Metadata = {
 export default function RootLayout({children}: Readonly<{children: React.ReactNode;}>) {
   return (
     <html lang="en">
-      <body>
-        <Header />
-        <main>
-          {children}
-        </main>
-        <Footer />
+      <body className="p-10">
+        <div className="hidden md:flex fixed top-10 left-10">
+          <CardInfo />
+        </div>
+        <div className="md:ml-96">
+          <Header />
+          <main>
+            {children}
+          </main>
+          <Footer />
+        </div>
       </body>
     </html>
   );
