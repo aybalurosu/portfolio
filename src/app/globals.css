@@ -10,3 +10,10 @@
 body {
     background-color: var(--main-background);
 }
+
+.bg {
+    background-image: url('/hero/wallpaper.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
