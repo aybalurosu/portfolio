@@ -5,7 +5,8 @@ export function CardInfo() {
   return (
     <div
       className="bg-[#a49aa1c6] p-4 rounded-2xl w-auto h-full
-           shadow-[#4a4a4a] shadow-md backdrop-blur-2xl flex flex-col items-center justify-center gap-4"
+           shadow-[#4a4a4a] shadow-md backdrop-blur-2xl 
+           flex flex-col items-center justify-center gap-4"
     >
       <Image
         src={"/hero/avatar.jpeg"}

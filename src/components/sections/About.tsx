@@ -5,8 +5,8 @@ export function About() {
     <section id="about" className="flex flex-col md:flex-row lg:flex-row items-center justify-center gap-6 min-h-screen w-full">
       {/* component */}
       <div className="p-4 rounded-lg w-auto lg:w-1/2 md:w-1/2
-       shadow-[#4a4a4a] shadow-md backdrop-blur-2xl flex flex-col items-center justify-center gap-4">
-        <h2>About Me</h2>
+       shadow-[#4a4a4a] shadow-md backdrop-blur-2xl flex flex-col items-center justify-center gap-4 text-amber-50">
+        <h2 className="text-4xl font-bold">About Me</h2>
         <p>
           I am a passionate frontend developer with experience in building
           responsive and user-friendly web applications. I love creating

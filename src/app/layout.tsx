@@ -12,10 +12,10 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
   return (
     <html lang="en">
       <body className="p-10">
-        <div className="hidden md:flex fixed top-10 left-10">
+        <div className="hidden lg:flex fixed top-10 left-10">
           <CardInfo />
         </div>
-        <div className="md:ml-96">
+        <div className="lg:ml-96">
           <Header />
           <main>
             {children}
